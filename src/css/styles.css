@@ -128,7 +128,7 @@ main figure figcaption {
 
 .p1 {
   font-size: 0.7em;
-  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .p1 h3 {
@@ -146,6 +146,13 @@ main figure figcaption {
 .last {
   margin-top: 100px;
   border: 4px dotted #a1a1a1;
+}
+
+a{
+  display: block;
+  color: #3f0f0f;
+  text-align: justify;
+  margin: 10px 0;
 }
 
 @media (max-width: 768px) {

@@ -108,7 +108,15 @@ button {
     background: #6b64f3;
     color: white;
     font-weight: 600;
-   }
+}
+
+button a:visited {
+    color: white;
+}
+
+button:hover {
+    background: #534bf3;
+}
 
 #one:hover, #two:hover {
     cursor: pointer;
