@@ -1,20 +1,20 @@
-// Add your JavaScript code here
-// You can use this file to add interactivity and dynamic behavior to the article
+const one = document.getElementById('one');
+const two = document.getElementById('two');
 
-// Example code: Fetching data from an API
-fetch('https://api.example.com/endangered-animals')
-  .then(response => response.json())
-  .then(data => {
-    // Process the data and update the article dynamically
-    console.log(data);
-  })
-  .catch(error => {
-    console.error('Error fetching data:', error);
-  });
+const map = document.getElementById('mapa');
+const cards = document.getElementById('cards');
 
-// Example code: Handling user interactions
-const button = document.querySelector('.read-more-button');
-button.addEventListener('click', () => {
-  // Expand the article or show additional content
-  console.log('Read more button clicked');
-});
+const elements = [one, two];
+
+elements.forEach(element => {
+  element.addEventListener('click', () => {
+    if(cards.style.display === 'none') {
+      map.style.display = 'none';
+      cards.style.display = 'flex';
+    }else {
+      cards.style.display = 'none';
+      map.style.display = 'flex';
+      map.style.flexDirection = 'column';
+      map.style.gap = '40px';
+    }
+    })});
