@@ -10,7 +10,7 @@ The project has the following files:
 
 - `src/js/script.js`: This file contains the JavaScript code for the single-page website. It is used to add interactivity and dynamic behavior to the article, such as handling user interactions or fetching data.
 
-- `src/index.html`: This file is the main HTML file of the single-page website. It contains the structure and content of the article, including headings, paragraphs, images, and any other elements necessary to present the information about endangered animals.
+- `index.html`: This file is the main HTML file of the single-page website. It contains the structure and content of the article, including headings, paragraphs, images, and any other elements necessary to present the information about endangered animals.
 
 - `.gitignore`: This file specifies which files and directories should be ignored by Git version control. It is commonly used to exclude files that are generated during the development process, such as build artifacts or dependencies.
 
